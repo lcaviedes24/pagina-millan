@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Interactividad para los botones de contacto y navegación
-    const actionButtons = document.querySelectorAll('.btn-whatsapp, .btn-cta-nav, .nav-logo');
+    const actionButtons = document.querySelectorAll('.btn-whatsapp, .btn-cta-nav, .nav-logo, .floating-whatsapp');
     actionButtons.forEach(button => {
         button.addEventListener('click', () => {
             console.log("Interacción de conversión registrada hacia WhatsApp.");
